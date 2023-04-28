@@ -1,0 +1,55 @@
+
+.longbutton{
+    width:13em;
+    height:auto;
+}
+.carouselbtn{
+border-radius:50%;
+    opacity:0.3;
+    width:20%;
+    height:40%;
+}
+.shortbutton{
+    width:45px;
+    height:45px;
+    left:95%;
+    bottom:10px;
+}
+.navbar-toggler{
+    border:none;
+}
+#section-1{
+    animation-delay: 1s;
+    animation-duration:1s;
+    animation-iteration-count:1; 
+}
+#section-2{
+    animation-delay: 2s;
+    animation-duration:1s;
+    animation-iteration-count:1; 
+
+}
+img.pic{
+    height:15em;
+}
+img.full{
+    width:inherit;
+    height:auto;
+}
+img.round{
+    width:25em;
+    height:25em;
+    border-radius:50%;
+}
+i.fas{
+    font-size:2em ;
+}
+i.fab{
+    font-size:7em ;
+}
+button.round{
+    border-radius:50%;
+    width:5%;
+    height:5%;
+    background-color:red;
+}
