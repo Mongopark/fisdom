@@ -1,10 +1,18 @@
+@media(max-width:768px){
+    img.dropcoin{width:35%;
+justify-self: center;
+margin: auto;
+    }
+}
+@media(min-width:992px){
+    img.dropcoin{width:75%;
+justify-self: center;
+margin: auto;
+    }
+}
 img.store{
     width:10em;
     height:auto;
-}
-div.golditem{
-    height:23em;
-    width:auto;
 }
 i.feather{
     transform:rotate(135deg);
@@ -16,19 +24,37 @@ img.coin{
     width:10em;
     height:10em;
 }
-div.blue{
-    height:10em;
-}
-div.offset{
-    position:relative;
-    left:9em;
-    top:3em;
-}
 img.bagofcoins{
-    position:absolute;
-    width:16em;
+/*    position:absolute;*/
+    width:10em;
     height:auto;
 }
+/*svg.svg{
+    z-index: 999;
+}*/
+/*#about .col-left .about-img {
+  position: relative;
+  border: 10px solid white;
+  border-radius: 10px 20px;
+  height: 100%;
+}
+#about .col-left .about-img::after {
+  content: "";
+  position: absolute;
+  left: -33px;
+  top: 19px;
+  height: 98%;
+  width: 98%;
+  border: 7px solid #1ced61;
+  border-radius: 10px 20px;
+  z-index: -1;
+}*/
+/*  #about .about .col-right .about-img::after {
+    left: -45%;
+    top: 24px;
+    height: 98%;
+    border: 10px solid #1ced61;
+  }*/
 img.smallpic{
     width:2em;
     height:2em;
@@ -48,7 +74,6 @@ div.google{
 }
 div.halfphone img{
     width:10em;
-    padding-top:5em;
 }
 img.download{
     width:8em;
@@ -66,16 +91,18 @@ img.footer{
 
 
 /* TOGGLE SWITCH */
-
+div#checkbox{
+    display:block;
+}
 div.instruct{
-    padding-top:15px;
+    /*padding-top:15px;
     padding-left:145px;
     font-weight:bolder;
-    float:right;
+    float:right;*/
 }
 .switch{
 position:relative;
-display:inline-block;
+/*display:inline-block;*/
 width: 60px;
 height:34px;
 }
@@ -172,7 +199,7 @@ border-radius:50%;
 input[type="checkbox"]{
     opacity:0;
 }
-div#checkbox{
+/*div#checkbox{
 left:55em;
-}
+}*/
 

@@ -19,15 +19,22 @@
     <div class="container">
     <a href="#" class="navbar-brand text-deeper text-lowercase initialism h1"><i class="fas fa-bolt"></i>fisdom</a>
 
+<div class="instruct text-deepest ms-auto px-2" id="checkbox">
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round" id="slider"></span>
+        </label>    
+    </div>
 <button 
-class="navbar-toggler text-deepest" 
-type="button" 
+class="navbar-toggler text-deepest btn-outline-danger" 
+type="button" id="hamburger" 
 data-bs-toggle="collapse" 
 data-bs-target="#navmenu"
 >
 <!-- <span class="navbar-toggler-icon"></span> -->
 <i class="fas fa-bars text-deepest"></i>
 </button>
+
     <div class="collapse navbar-collapse" id="navmenu">
 <ul class="navbar-nav ms-auto">
     <li class="nav-item">
@@ -39,11 +46,20 @@ data-bs-target="#navmenu"
     <li class="nav-item">
         <a href="#instructors" class="nav-link text-deepest">instructors</a>
     </li>
+    <li class="nav-item">
+        <div class="text-deepest d-sm-block"><span id="switch">Switch to dark mode</span>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round" id="slider"></span>
+        </label>    
+    </div>
+    </li>
 </ul>
     </div>
 
 </div>
 <br><br><br>
+        
    </nav>
 
   
@@ -53,13 +69,7 @@ data-bs-target="#navmenu"
     
     
     
-    <div class="instruct text-deepest fixed-bottom" id="checkbox"><span id="switch">Switch to dark mode</span>
-        <label class="switch">
-            <input type="checkbox">
-            <span class="slider round" id="slider"></span>
-        </label>
     
-    </div>
 
 
 
@@ -79,9 +89,9 @@ data-bs-target="#navmenu"
 
 
 
-<section class="container bg-brightest d-flex align-content-center py-0 my-0 pl-0">
-
-    <div class="container-fluid col-6 align-self-between">
+<section class="container-fluid bg-brightest">
+<div class="container-fluid justify-content-between row ms-auto">
+    <div class="container-fluid col-md-6 text-center text-md-start">
 <h1 class="text-deepest fw-bold display-2">
     personal <br>finance,
 </h1>
@@ -91,7 +101,7 @@ data-bs-target="#navmenu"
 <div class="text-deepest small">
     Download the fisdom app
 </div>
-<div class="text-deepest small d-flex align-content-start">
+<div class="text-deepest small d-flex justify-content-center justify-content-md-start">
     <img src="image/appstore.jpg" alt="Apple Store" class="store rounded-2">&nbsp
     <img src="image/googleplay.jpg" alt="Google Play Store" class="store rounded-2">
 </div>
@@ -99,8 +109,9 @@ data-bs-target="#navmenu"
 
 
     
-    <div class="container-fluid col-6 align-self-center">
-        <img src="image/phone.PNG" alt="phone image" class="container-fluid">
+    <div class="container-fluid col-md-6 p-5 justify-content-center d-flex">
+        <img src="image/phone.PNG" alt="phone image" class="img-fluid container-fluid w-75">
+    </div>
     </div>
 </section>
 
@@ -127,8 +138,9 @@ data-bs-target="#navmenu"
 
 
 
-<section class="container py-5 bg-brightest">
-<div class="container-fluid">
+<section class="container-fluid">
+    <div class="container-fluid row px-3 ms-auto py-3">
+<div class="container col-12">
     <h1 class=" display-4 fw-bold text-deeper">
         Choose better
     </h1>
@@ -136,22 +148,27 @@ data-bs-target="#navmenu"
         with Fisdom
     </h1>
 </div>
-<div class="golditem d-flex container-fluid">
-    <div class="coin row container-fluid h-78 p-4 bg-deep rounded-3 mx-2">
+
+
+<div class="container row col-12 justify-content-center justify-content-md-between px-2 g-1 ms-auto">
+    <div class="coin row container-fluid p-4 bg-deep rounded-3 col-sm-8 col-md-4 my-2">
         Thank you Jesus
-    <img src="image/coin.png" alt="coin" class="coin container-fluid text-end">
-   <div class="container-fluid fw-bold h3 align-self-end">Protect what matters</div>
+    <img src="image/coin.png" alt="coin" class="coin container-fluid text-end col-12">
+   <div class="container-fluid fw-bold h3 align-self-end col-12">Protect what matters</div>
     </div>
-    <div class="coin row container-fluid p-4 bg-brighter text-deepest rounded-3 mx-2">
+
+    <div class="coin row container-fluid p-4 bg-brighter text-deepest rounded-3 col-sm-8 col-md-4 my-2">
     Thank you Jesus
-    <img src="image/rupee.png" alt="indian rupee" class="coin container-fluid text-end">
-        <div class="container-fluid text-deepest fw-bold h3 align-self-end">Nurture it to <br>grow it</div>
+    <img src="image/rupee.png" alt="indian rupee" class="coin container-fluid text-end col-12">
+        <div class="container-fluid text-deepest fw-bold h3 align-self-end col-12">Nurture it to <br>grow it</div>
     </div>
-    <div class="coin row container-fluid p-4 bg-bright rounded-3 mx-2">
+
+    <div class="coin row container-fluid p-4 bg-bright rounded-3 col-sm-8 col-md-4 my-2">
         Thank you Jesus
-        <img src="image/percent.png" alt="percentage" class="coin container-fluid text-end">
-        <div class="container-fluid fw-bold h3 align-self-end">Many means <br>to one goal</div>
+        <img src="image/percent.png" alt="percentage" class="coin container-fluid text-end col-12">
+        <div class="container-fluid fw-bold h3 align-self-end col-12">Many means <br>to one goal</div>
     </div>
+</div>
 </div>
 </section>
 
@@ -182,51 +199,22 @@ data-bs-target="#navmenu"
 
 
 
-<section class="container py-5 bg-brightest">
-    <div class="container-fluid">
-        <h1 class=" display-4 fw-bold text-deeper">Take Control<span class=" display-4 d-inline fw-bold text-deepest">
+<section class="container-fluid py-5 bg-brightest my-5">
+    <div class="container row">
+        <div class="container col-11">
+        <h1 class=" display-4 fw-bold text-deeper">Take Control</h1>
+        <span class=" display-4 d-inline fw-bold text-deepest">
                     of
             </span>
-            </div>
-        </h1>
-        <h1 class=" display-4 fw-normal fw-bold text-deepest px-3">
+        <h1 class=" display-4 fw-normal fw-bold text-deepest">
             your money
         </h1>
     </div>
-</section>
 
+<div class="container bg-brightest d-flex align-content-center pb-5 my-0 col-12 row">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section class="container bg-brightest d-flex align-content-center pb-5 my-0">
-
-    <div class="container-fluid col-6  align-self-center">
-<h1 class="text-deepest fw-bold h1 py-3">
+    <div class="container col-md-6 col-sm-12 align-self-center">
+<h1 class="container text-deepest fw-bold h1 py-3">
     Finances at your <br>fingertips
 </h1>
 <ul class="text-deepest small fw-bold">
@@ -236,8 +224,11 @@ data-bs-target="#navmenu"
 </ul>
 </div>
 
-    <div class="container-fluid col-4 align-self-center">
+
+    <div class="container-fluid col-md-6 col-sm-12 align-self-center">
         <img src="image/handphone.PNG" alt="Hand Held phone image" class="container-fluid">
+    </div>
+    </div>
     </div>
 </section>
 
@@ -271,9 +262,9 @@ data-bs-target="#navmenu"
 
 
 
-<section class="container-fluid py-5 bg-brightest bg-brighter">
-    <div class="container">
-    <div class="container-fluid">
+<section class="container-fluid bg-brightest bg-brighter">
+    <div class="container-fluid row me-auto">
+    <div class="container-fluid col-12">
         <h1 class=" display-4 fw-normal fw-bold text-deepest">
             Building our
         </h1>
@@ -281,8 +272,9 @@ data-bs-target="#navmenu"
             expertise, for you
         </h1>
     </div>
-    <div class="d-flex container-fluid">
-        <div class="coin row container-fluid h-78 p-2 bg-deep rounded-3 mx-2">
+
+    <div class="container-fluid col-12 row g-5 justify-content-md-between justify-content-sm-center py-3 ms-auto">
+        <div class="coin row container-fluid bg-deep rounded-3 col-sm-8 col-md-4 my-2">
         <span class="small fw-bold small">Thank you Jesus for saving</span>
         <h1 class="text-end display-1 opacity-25 rotate-"><i class="fas fa-feather-pointed text-brighter text-end"></i></h1>
        <div class="container-fluid fw-bold lead text-deepest">Protect what matters Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, temporibus dolor non cumque, ut a optio labic, ipsum explicabo. </div>
@@ -290,14 +282,14 @@ data-bs-target="#navmenu"
         </div>
 
 
-        <div class="coin row container-fluid p-2 py-2 bg-deeper rounded-3 mx-2 fw-bold small text-brightest">
+        <div class="coin row container-fluid bg-deeper rounded-3 fw-bold small text-brightest col-sm-8 col-md-4 my-2">
         Thank you Jesus for saving my life
         <h1 class="text-end display-1 opacity-25 rotate-"><i class="feather fas fa-feather-pointed text-brighter text-end"></i></h1>
             <div class="container-fluid fw-bold lead text-brightest">Nurture it to grow it Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia enim, exp.</div>
             <h3 class="text-end opacity-25 align-self-end"><i class="leaf fas fa-circle-plus text-deepest text-end"></i></h3>
         </div>
 
-        <div class="coin row container-fluid p-2 bg-brightest rounded-3 mx-2 fw-bold small text-deeper">
+        <div class="coin row container-fluid bg-brightest rounded-3 fw-bold small text-deeper col-sm-8 col-md-4 my-2">
             Thank you Jesus for helping me
             <h1 class="text-end display-1 opacity-25 rotate-"><i class="leaf fas fa-feather-pointed text-deepest text-end"></i></h1>
             <div class="h1 text-deeper fw-bold py-0">150+</div>
@@ -307,7 +299,8 @@ data-bs-target="#navmenu"
             <div class="container-fluid fw-bold text-deepest py-0">Many means to one goal</div>
             <h3 class="text-end opacity-25"><i class="leaf fas fa-circle-plus text-deepest text-end"></i></h3>
         </div>
-    </div></div>
+    </div>
+</div>
     </section>
 
 
@@ -391,8 +384,8 @@ data-bs-target="#navmenu"
 
 
 <section class="container-fluid py-5 bg-brightest">
-    <div class="container">
-    <div class="container-fluid">
+    <div class="container-fluid row">
+    <div class="container-fluid col-12">
         <h1 class="fw-bold text-deepest">
             Let's make your
         </h1>
@@ -401,40 +394,40 @@ data-bs-target="#navmenu"
         </h1>
         <div class="small fw-bold text-deepest">Lorem ipsum, dolor sit amet consectetur adipis lorem ipsium <br>icing elit. Est porro molestias maxime a datque?</div>
     </div>
-    <div class="d-flex container-fluid">
 
-        <div class="coin container-fluid bg-brightest py-5">
-        <div class="text-deepest fw-bold container-fluid small py-2">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
-       <div class="container-fluid small text-deepest py-0">Protect what matters Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, temporibus dolor non cumque, ut a optio labic, ipsum explicabo. </div>
-       <div class="container-fluid"><button class="bg-deeper btn btn-small text-brightest small lead fw-bold "><i class="fas fa-arrow-right"></i></button>
+    <div class="container-fluid col-12 row justify-content-center ms-auto">
+        <div class="bg-brightest py-5 col-sm-12 col-md-4">
+        <div class="text-deepest fw-bold small py-2">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
+       <div class="small text-deepest py-0">Protect what matters Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, temporibus dolor non cumque, ut a optio labic, ipsum explicabo. </div>
+       <div class=""><button class="bg-deeper btn btn-small text-brightest small lead fw-bold "><i class="fas fa-arrow-right"></i></button>
          </div>
 
-            <div class="text-deepest fw-bold container-fluid small pb-2 pt-5">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
-           <div class="container-fluid small text-deepest py-0">Protect what matters Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, temporibus dolor non cumque, ut a optio labic, ipsum explicabo. </div>
-           <div class="container-fluid"><button class="bg-deeper btn btn-small text-brightest small lead fw-bold "><i class="fas fa-arrow-right"></i></button>
+            <div class="text-deepest fw-bold small pb-2 pt-5">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
+           <div class="small text-deepest py-0">Protect what matters Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, temporibus dolor non cumque, ut a optio labic, ipsum explicabo. </div>
+           <div class=""><button class="bg-deeper btn btn-small text-brightest small lead fw-bold "><i class="fas fa-arrow-right"></i></button>
              </div>
-
        </div>
 
 
 
-        <div class="coin row container-fluid p-2 py-2 bg-brightest fw-bold small text-brightest">
-        <img src="image/coins.png" alt="coins" class="coins h-75 align-self-center">
+        <div class="row container-fluid bg-brightest fw-bold small text-brightest col-md-4 align-self-center justify-self-center">
+        <img src="image/coins.png" alt="coins" class="h-50 dropcoin">
         </div>
 
 
-        <div class="coin container-fluid bg-brightest py-5">
-            <div class="text-deepest fw-bold container-fluid small py-2">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
-           <div class="container-fluid small text-deepest py-0">Protect what matters Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, temporibus dolor non cumque, ut a optio labic, ipsum explicabo. </div>
-           <div class="container-fluid"><button class="bg-deeper btn btn-small text-brightest small lead fw-bold "><i class="fas fa-arrow-right"></i></button>
+        <div class="container-fluid bg-brightest py-5 col-sm-12 col-md-4">
+            <div class="text-deepest fw-bold small py-2">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
+           <div class="small text-deepest py-0">Protect what matters Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, temporibus dolor non cumque, ut a optio labic, ipsum explicabo. </div>
+           <div class=""><button class="bg-deeper btn btn-small text-brightest small lead fw-bold "><i class="fas fa-arrow-right"></i></button>
              </div>
     
-                <div class="text-deepest fw-bold container-fluid small pb-2 pt-5">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
-               <div class="container-fluid small text-deepest py-0">Protect what matters Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, temporibus dolor non cumque, ut a optio labic, ipsum explicabo. </div>
-               <div class="container-fluid"><button class="bg-deeper btn btn-small text-brightest small lead fw-bold "><i class="fas fa-arrow-right"></i></button>
+                <div class="text-deepest fw-bold small pb-2 pt-5">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
+               <div class="small text-deepest py-0">Protect what matters Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, temporibus dolor non cumque, ut a optio labic, ipsum explicabo. </div>
+               <div class=""><button class="bg-deeper btn btn-small text-brightest small lead fw-bold "><i class="fas fa-arrow-right"></i></button>
                  </div>
     
            </div>
+</div>
 </div>
     </section>
 
@@ -459,44 +452,38 @@ data-bs-target="#navmenu"
 
 
 
+<section class="container-fluid bg-deeper py-3 bg-brightest row">
 
-<section class="bg-brightest row">
+<div class="container col-12 py-5 row justify-content-center g-5 ms-auto">
 
-<div class="blue bg-deeper m-0 p-5 col-11 h-50 row">
-
-<div class="container-fluid p-5 col-3">
-    <h1 class="text-brightest container-fluid fw-bold display-4">Trusted</h1>
-    <h1 class="text-deep container-fluid fw-bold pb-3 display-4">partner-ships</h1>
-    <button class="mx-3 btn btn-long bg-brightest text-deepest">Begin Now</button>
-    <div class="container-fluid my-5 py-5"><img src="image/bagofcoins.png" alt="Bag Of Coins" class="container-fluid bagofcoins"></div>
+<div class="col-sm-8 col-md-3">
+    <h1 class="text-brightest fw-bold display-4">Trusted</h1>
+    <h1 class="text-deep fw-bold display-4">partner-ships</h1>
+    <button class="btn btn-long bg-brightest text-deepest">Begin Now</button>
+    <div class=""><img src="image/bagofcoins.png" alt="Bag Of Coins" class="container-fluid bagofcoins"></div>
 </div>
 
 
-<div class="d-flex col-9 container-fluid offset">
-        <div class="coin container p-2 bg-brightest h-75 rounded-3 mx-3">
-        <div class="container small fw-bold small py-2 text-deepest">Thank you Jesus for saving</div>
+        <div class="bg-brightest rounded-3 container col-sm-8 col-md-4 mx-3 my-1">
+        <div class="small fw-bold small py-1 text-deepest">Thank you Jesus for saving</div>
         <h1 class="display-1 fw-bold text-deeper">10+</h1>
-       <div class="container-fluid fw-bold text-deepest">Protect what matters Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, temporibus dolor non cumque, ut a optio labic, ipsum explicabo. </div>
-       <div class="container-fluid row text-center">
+       <div class="fw-bold text-deepest">Protect wha temporibus dolor non cumque, ut a optio labic, ipsum explicabo. </div>
+       <div class="lead row text-center d-flex small">
         <i class="fab fa-connectdevelop text-danger col-6 h1"><i class="fab fa-cpanel text-danger col-4 h1"></i></i>   
-        <i class="fab fa-d-and-d-beyond col-6 text-success h1"></i></div>
-       <div class="container-fluid row text-center">
+        <i class="fab fa-d-and-d-beyond col-6 text-success h1"></i>
         <i class="fab fa-asymmetrik text-deeper col-6 h1 text-lowercase"><i class="fab fa-apper col-4 fw-bold text-deeper"></i></i>   
         <i class="fab fa-ethereum col-6 text-warning h3 container"><i class="fab fa-ember col-4 fw-bold text-danger"></i></i></div>
        </div>
 
-
-        <div class="container bg-brightest rounded-3 fw-bold text-deepest row h-75 mx-3">
-<div class="container small text-deepest py-3">Lorem, ipsum dolor.</div>
-<div class="container text-deepest">Lorem, ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nam aspernatur sit, veniam dolor blanditiis neque!.</div>
+        <div class="col-sm-8 col-md-4 container bg-brightest rounded-3 fw-bold text-deepest row my-1">
+<div class="small text-deepest py-1">Lorem, ipsum dolor.</div>
+<div class="text-deepest">Lorem, ipsum dolor Lorem ipsum dolor sit amet itiis neque!.</div>
 <h2 class="text-deepest">Digital Partners<br><span class="fw-light small"><span class="small"><span class="small"><span class="small">Lorem, ipsum dolor.</span></span></span></span></h2>
-
-            <div class="container-fluid row fw-bold text-deepest rounded-5 text-center">
+            <div class="row fw-bold text-deepest rounded-5 text-center d-flex">
                 <i class="fab fa-gg-circle col-6 h1 text-primary"><i class="fab fa-angrycreative h1 text-primary"></i></i>
                 <i class="fab fa-magento col-3 h3 text-deepest"></i>
-                <i class="fab fa-markdown col-3 h3 text-danger"></i></div>
+                <i class="fab fa-markdown col-3 h3 text-danger"></i>
         </div></div>
-</div>
 </div>
 </section>
 
@@ -528,7 +515,7 @@ data-bs-target="#navmenu"
     <h1 class=" display-4 fw-normal fw-bold text-deepest">
         are our true wealth
     </h1>
-</div><div>
+</div>
 <div class="cards d-flex my-3 justify-content-center">
     <div class="coin row container-fluid py-4 bg-brighter text-deepest rounded-3 mr-5 ml-0 smalltext fw-bold">
         Thank you Jesus
@@ -559,7 +546,7 @@ data-bs-target="#navmenu"
             Thank you Jesus Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam a voluptatem inventore fugiat natus minima?</div><br><br><br><br><br>
             <div class="d-flex">
         <div class="text-start aligh-self-end mt-5"><img src="image/theweekend.jpg" alt="The Weekend" class="smallpic rounded-4"> 
-        <div class="small smalltext"><b>Lorem, ipsum </b>Lorem, ipsum </div> </div>
+        <div class="small smalltext"><b>Lorem, ipsum </b>Lorem,  </div> </div>
         
             <div class="container-fluid fw-bold small align-self-end text-end">
                 <i class="fas fa-star text-warning">
@@ -623,7 +610,7 @@ data-bs-target="#navmenu"
             Thank you Jesus Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam a voluptatem inventore fugiat natus minima?</div><br><br><br><br><br>
             <div class="d-flex">
         <div class="text-start aligh-self-end mt-5"><img src="image/theweekend.jpg" alt="The Weekend" class="smallpic rounded-4"> 
-        <div class="small smalltext"><b>Lorem, ipsum </b>Lorem, ipsum </div> </div>
+        <div class="small smalltext"><b>Lorem, ipsum </b>Lorem, </div> </div>
        
             <div class="container-fluid fw-bold small align-self-end text-end">
                 <i class="fas fa-star text-warning">
@@ -674,26 +661,26 @@ data-bs-target="#navmenu"
         </h1>
 
     </div>
-    <div class="d-flex container">
-        <div class="container text-deepest text-center">
+    <div class="row container">
+        <div class="container text-deepest text-center col-6 col-md-3">
 <div class="container-fluid display-1 py-3 text-deep opacity-50"><i class="fab fa-rebel"></i></div>
 <div class="container-fluid fw-bold">Lorem ix zpsu<br> dzr sit amet.</div>
 <div class="container-fluid small">Lorem ipxczsum d</div>
         </div>
 
-        <div class="container text-deepest text-center">
+        <div class="container text-deepest text-center col-6 col-md-3">
             <div class="container-fluid display-1 py-3 text-bright opacity-50"><i class="fab fa-rebel"></i></div>
             <div class="container-fluid fw-bold">Lorem iccpsum<br>dolorcz sit amet.</div>
             <div class="container-fluid small">m ipsum d</div>
                     </div>
 
-                    <div class="container text-deepest text-center">
+                    <div class="container text-deepest text-center col-6 col-md-3">
                         <div class="container-fluid display-1 py-3 text-deeper opacity-50"><i class="fab fa-rebel"></i></div>
                         <div class="container-fluid fw-bold">zxczrem ipsum<br>r sit amet.</div>
                         <div class="container-fluid small">Loreum d</div>
                                 </div>
 
-        <div class="container text-deepest text-center">
+        <div class="container text-deepest text-center col-6 col-md-3">
 <div class="container-fluid display-1 py-3 text-deep opacity-50"><i class="fab fa-rebel"></i></div>
 <div class="container-fluid fw-bold">Lorem ipsum<br>dolor sit amet.</div>
 <div class="container-fluid small">Lorem ipsum d</div>
@@ -721,21 +708,24 @@ data-bs-target="#navmenu"
 
 
 <section class="bg-deeper">
-    <div class="container text-center text-brightest py-5 lead">F e a t u r e d &nbsp&nbsp&nbsp  i n</div>
+    <div class="container row ms-auto">
+        <div class="container row col-12 text-center">
+    <div class="text-center text-brightest col-12 py-5 lead">F e a t u r e d &nbsp&nbsp&nbsp  i n</div>
 
-    <div class="container d-flex row text-center justify-content-center text-brightest fw-bold lead px-5">
-        <div class="google container d-inline col-2"><i class="fab fa-slack"></i><span>slack</span></div>
-        <div class="google container d-inline col-2">Supreme</div>
-        <div class="google container d-inline col-2">Google</div>
-        <div class="google container d-inline col-2">SONY</div>
-    </div>
+    <div class="container row text-center text-brightest fw-bold lead px-5 col-12">
+        <div class="google container d-inline col-sm-3"><i class="fab fa-slack"></i><span>slack</span></div>
+        <div class="google container d-inline col-sm-3">Supreme</div>
+        <div class="google container d-inline col-sm-3">Google</div>
+        <div class="google container d-inline col-sm-3">SONY</div>
+    </div></div>
 
-    <div class="container d-flex text-brightest justify-content-center fw-bold lead pt-5 px-5">
-        <div class="halfphone col-4 container d-inline px-5 pt-5 justify-content-end align-content-end">
-            <img class="justify-self-end align-self-end" src="image/halfphone.png" alt="Half Phone">
+
+
+    <div class="container text-brightest fw-bold lead pt-5 row col-12">
+<div class="halfphone mt-5 col-4 container d-none d-md-block">
+            <img class="" src="image/halfphone.png" alt="Half Phone">
         </div>
-
-        <div class="container-fluid d-inline justify-content-end align-content-end px-5 pt-5">
+        <div class="container mt-5 col-8 d-block d-md-none col-12">
             <h1 class="text-deep fw-bold display-4">
                 Managing your
             </h1>
@@ -749,12 +739,35 @@ data-bs-target="#navmenu"
                 <img src="image/appstore.jpg" alt="Apple Store" class="download rounded-2">&nbsp
                 <img src="image/googleplay.jpg" alt="Google Play Store" class="download rounded-2">
             </div>
-                
+              </div>
 
+
+
+
+
+        <div class="halfphone mt-5 col-4 container d-block d-md-none col-12">
+            <img class="" src="image/halfphone.png" alt="Half Phone">
         </div>
-
+        <div class="container mt-5 col-8 d-none d-md-block">
+            <h1 class="text-deep fw-bold display-4">
+                Managing your
+            </h1>
+            <h1 class="text-deep fw-bold display-4">
+                finances<span class="text-brightest"> with us<br>is a tap away</span>
+            </h1>
+            <div class="text-brightest small">
+                Download the fisdom app Lorem ipsum dolor sit.
+            </div>
+            <div class="text-deepest small d-flex align-content-start">
+                <img src="image/appstore.jpg" alt="Apple Store" class="download rounded-2">&nbsp
+                <img src="image/googleplay.jpg" alt="Google Play Store" class="download rounded-2">
+            </div>
+              </div>
+</div>
     </div>
-</section>
+</section>  
+
+        
 
 
 
@@ -775,13 +788,13 @@ data-bs-target="#navmenu"
 <section class="container py-5">
     <div class="container-fluid h1 pt-5 text-deeper"><i class="fas fa-basket-shopping"></i>Fisdom</div>
     <div class="container-fluid small text-deepest">The best shopping enterprise</div>
-    <div class="container-fluid py-5 d-flex text-deepest">
-        <div class="container"><b>Lorem </b><br>ipsum <br>dolor <br>sit <br>amet.</div>
-        <div class="container"><b>Lorem </b><br>ipsum <br>dolor <br>sit </div>
-        <div class="container"><b>Lorem </b><br>ipsum <br>dolor <br>sit <br>amet.<br>amet.</div>
-        <div class="container"><b>Lorem </b><br>ipsum <br>dolor <br>sit .</div>
-        <div class="container"><b>Lorem </b><br>ipsum <br>dolor <br>sit </div>
-        <div class="container"><b>Lorem </b><br>ipsum <br>dolor .</div>
+    <div class="container-fluid py-5 row text-center text-deepest">
+        <div class="container col-4 col-md-2"><b>Lorem </b><br>ipsum <br>dolor <br>sit <br>amet.</div>
+        <div class="container col-4 col-md-2"><b>Lorem </b><br>ipsum <br>dolor <br>sit </div>
+        <div class="container col-4 col-md-2"><b>Lorem </b><br>ipsum <br>dolor <br>sit <br>amet.<br>amet.</div>
+        <div class="container col-4 col-md-2"><b>Lorem </b><br>ipsum <br>dolor <br>sit .</div>
+        <div class="container col-4 col-md-2"><b>Lorem </b><br>ipsum <br>dolor <br>sit </div>
+        <div class="container col-4 col-md-2"><b>Lorem </b><br>ipsum <br>dolor .</div>
         
     </div>
 </section>
@@ -811,12 +824,12 @@ data-bs-target="#navmenu"
 </div>
 
 
-<div class="container-fluid d-flex py-5">
-    <div class="container-fluid d-inline">
+<div class="container-fluid row py-5">
+    <div class="container-fluid col-5">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita.
     </div>
 
-    <div class="container-fluid d-inline text-end">
+    <div class="container-fluid col-7 text-end">
         w w w . f i s d o m . c o m . n g
     </div>
 </div>
