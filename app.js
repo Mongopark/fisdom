@@ -28,9 +28,13 @@ function hideSwitcher(e){
     e.preventDefault();
     clickk++;
     var switcher=document.getElementById('checkbox');
+    var icon=document.getElementById('navicon');
     if(clickk%2==0){
     switcher.style.display="block";
+icon.classList.replace("fa-x","fa-bars");
     }
     else{
-        switcher.style.display="none";}
+        switcher.style.display="none";
+        icon.classList.replace("fa-bars","fa-x");
+        }
 }
