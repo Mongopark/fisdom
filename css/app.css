@@ -10,6 +10,9 @@ justify-self: center;
 margin: auto;
     }
 }
+nav.navbaby{
+    position:sticky;
+}
 img.store{
     width:10em;
     height:auto;
@@ -68,6 +71,9 @@ div.lastcard{
 }
 div.cards{
     height:17em;
+}
+div.week{
+    overflow: hidden;
 }
 div.google{
     margin:0em;
