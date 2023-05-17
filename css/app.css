@@ -71,6 +71,7 @@ div.lastcard{
 }
 div.cards{
     height:17em;
+    overflow: hidden;
 }
 div.week{
     overflow: hidden;
